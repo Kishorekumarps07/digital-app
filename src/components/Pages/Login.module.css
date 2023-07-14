@@ -1,0 +1,45 @@
+.login {
+    height: 102vh;
+    width: 100vw;
+    margin-top: -30vh;
+    background: url("https://res.cloudinary.com/diov9atga/image/upload/v1689232686/image_qqlqdj.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgba(2, 0, 0, 0.64), 0 8px 16px rgb(0 10 0 / 34%);
+    border-radius: 8px;
+    font-size: 20px;
+    
+  }
+  
+  .login > form {
+    width: 20%;
+  }
+  
+  .login > form input {
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    outline: none;
+    color: #000000;
+    margin: 2% 0;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .login-heading {
+    color: #72c22300;
+    font-size: 40px;
+  }
+  
+  .register-link {
+    color: #ff0505;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  
